@@ -271,3 +271,14 @@ table .dur {
 #dj_pic {
   width: 95%;
 }
+
+@media (max-width: 959px) {
+  div.box {
+    width: 90%;
+    max-width: 960px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #222;
+  }
+}
